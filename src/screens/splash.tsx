@@ -11,11 +11,11 @@ const Gap = styled.View`
 export const SplashScreen = () => {
     const navigation = useNavigation();
 
-    // useEffect(() => {
-    //     setTimeout(() => {
-    //         navigation.navigate("Onboarding");
-    //     }, 2000)
-    // }, [])
+    useEffect(() => {
+        setTimeout(() => {
+            navigation.navigate("Onboarding");
+        }, 2000)
+    }, [])
 
     return (
         <Background flex={1} color={"#53B175"}>

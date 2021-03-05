@@ -1,5 +1,6 @@
 import React from 'react';
 import { SafeAreaView, StatusBar } from 'react-native';
+import { Image } from 'react-native-svg';
 import styled from 'styled-components/native';
 import { Background, FlexBox, Box, MainIcon, NectarIcon, Text } from '../components';
 
@@ -18,13 +19,13 @@ const Box3 = styled(FlexBox)`
 export const OnboardingScreen = () => {
     return (
         <Background flex={1} color={"white"}>
-            <Box1 flex={1}></Box1>
+            {/* <Box1 flex={1}></Box1>
             <Box2 flex={2}></Box2>
             <Box width={"200px"} height={"50px"}></Box>
             <Box3 flex={3} flexDirection={"row"}>
                 <Box1 flex={3}></Box1>
                 <Box2 flex={2}></Box2>
-            </Box3>
+            </Box3> */}
         </Background>
     );
 };
